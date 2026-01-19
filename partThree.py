@@ -6,9 +6,14 @@ def main():
 
 
 def pounds_to_float(d):
-    # TODO
+    e = d.removeprefix("£")
+    return(float(e))
+    print(float(e))
+
 
 def percent_to_float(p):
-    # TODO
+    q = p.removesuffix("%")
+    q = (float(q))*0.01
+    return q
 
 main()
