@@ -6,7 +6,10 @@ def main():
     pythag(A,B)
 
 def pythag(A,B):
-    x = math.pow(A,2) + math.pow(B,2) # please remember pythagoras, you fool
+    # x = math.pow(A,2) + math.pow(B,2) # please remember pythagoras, you fool (a^2+b^2=c^2)
+    # y = math.sqrt(x)
+
+    x = (A**2) + (B**2) # please remember pythagoras, you fool (a^2+b^2=c^2)
     y = math.sqrt(x)
     print(y)
 

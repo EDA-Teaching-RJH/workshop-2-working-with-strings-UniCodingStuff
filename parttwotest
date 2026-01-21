@@ -1,0 +1,39 @@
+import math
+
+def main():
+   a = input("A:")
+   b = input("B:")
+   pythag(a,b)
+   print(pythag(a,b))
+
+def pythag(A,B):
+    print(math.sqrt(A**2+B**2)) # sqrt comes from the math library link, ** comes from the lab script
+    return (math.sqrt(A**2+B**2)) # return moves the output to where you called the function, so its moved this to be pythag(A, B)
+main()
+----------------------------------------------------------------------------------------------------------------------------------------
+import math
+
+def main():
+   a = input("A:")
+   b = input("B:")
+   pythag(a,b)
+   # have not used return here, it is not necessary but is good practice
+
+def pythag(A,B):
+    print(math.sqrt(A**2+B**2))
+    
+main()
+
+----------------------------------------------------------------------------------------------------------------------------------------import math
+import math
+
+def main():
+   a = input("A:")
+   b = input("B:")
+   pythag(a,b)
+
+def pythag(A,B): # seperating also works the exact same, this is just rewrting the same variable a few times with each step
+    x = (A**2+B**2) # you could also do different variables for all of these, it would be a waste of variables, but it would work
+    x = math.sqrt(x)
+    print(x)
+main()
